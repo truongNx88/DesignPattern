@@ -4,8 +4,6 @@
 #include "Document.hpp"
 
 class MyDocument : public Document {
-private:
-    /* data */
 public:
     MyDocument(char* fn) : Document(fn) {}
 
